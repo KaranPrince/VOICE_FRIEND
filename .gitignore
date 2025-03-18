@@ -1,0 +1,47 @@
+# Miscellaneous
+*.env
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+**/.DS_Store  # Exclude .DS_Store files in any directory
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+**/.metadata  # Exclude .metadata files created by Dart
+**/Thumbs.db  # Exclude Thumbs.db files created by Windows
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+#.vscode/  # Uncomment if you're not using VS Code
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+/assets/screenshots/*
