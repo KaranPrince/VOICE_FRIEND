@@ -1,0 +1,3 @@
+export 'package:flutter_voice_friend/llm_templates/activities/example_introduction_template.dart';
+export 'package:flutter_voice_friend/llm_templates/activities/example_dream_analyst_template.dart';
+export 'package:flutter_voice_friend/llm_templates/activities/example_my_new_activity_template.dart';
